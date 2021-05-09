@@ -1,0 +1,29 @@
+3.1 -> hamming, blackman, (retangular)
+
+hann https://www.mathworks.com/help/signal/ref/hann.html
+hamming https://www.mathworks.com/help/signal/ref/hamming.html
+blackman https://www.mathworks.com/help/signal/ref/blackman.html
+
+
+3.2 -> (feito para uma atividade) - utilizou-se a janela de Hamming  
+    Para fazer para as restantes fazer como no representData
+
+3.3 -> Retirar conclusões do 3.2 apresentar alguns exemplos
+
+3.4 -> Ver a sazonalidade para cada atividade, fazendo uma tabela com os valores para cada utilizador 
+
+(possível utilizar a função de autocorrelação para o efeito -> determinar o período com o maximizante
+dessa função - excluindo 0 - )
+
+3.5 -> Comparar os espectros obtidos nos vários tipos de atividades e tentar com isso identificar 
+algum padrão distintivo
+
+3.6 -> Apurar a análise realizada no exercício anterior de modo a distinguir as diferentes
+atividades, dentro de cada tipo. 
+
+GUIDELINES PARA O 4. :
+
+4.1 -> desenvolver a função de STFT a partir da fft obtida em cada janela temporal.
+
+4.2 -> Fazer variar o tamanho da janela e tentar obter as atividades, tendo em conta também a relação
+resolução em tempo - resolução em frequência.

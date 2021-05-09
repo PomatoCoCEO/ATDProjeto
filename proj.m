@@ -22,7 +22,7 @@ line=1;
 %imp(2,:)==labels(1,1:2)
 
 
-for g=1:a
+for g=1:1 %a
     line=representData(d(g,:), g, imp(g,:), act,labels,line);
     %disp(d(g,:))
 end
