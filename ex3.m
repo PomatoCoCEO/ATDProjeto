@@ -23,6 +23,7 @@
         figure(1)
         subplot(3,1,i)
         one_dir=samples_activity(:, i);
+ 
         dft_sample_one_dir = fftshift(fft(one_dir));
         dft_sample_one_dir(abs(dft_sample_one_dir)<0.001)=0;
         dft_sample_one_dir_ham = fftshift(fft(one_dir.*ham));
@@ -41,9 +42,9 @@
         [pks, locs] = findpeaks(mod_dft_sample_one_dir_ham, 'Minpeakheight',min_mag );
 
         f_relevant= nAxis(locs);
-        pks=pks(f_relevant>0);
-        f_relevant= f_relevant(f_relevant>0);
         f_relevant(abs(f_relevant)<0.001)=0;
+        pks=pks(f_relevant>=0);
+        f_relevant= f_relevant(f_relevant>=0);
         disp(dim_names(i));
         disp(f_relevant);
         figure(4)
@@ -71,9 +72,12 @@
         %adftest(one_dir.*ham)
         %fprintf('Hamming :')
         %adftest(ham);
-        figure(3);
-        subplot(3,1,i)
-        autocorr(one_dir.*ham,120);
+        
+        
+        %figure(3);
+        %subplot(3,1,i)
+        %autocorr(one_dir.*ham,120);
+        
         %spectrogram(one_dir, 109);
         % autocorr(one_dir,120);
         

@@ -1,4 +1,4 @@
-function line=representData(nameFile, nfigure, exp_user, act, labels, line)
+function line=representData(nameFile, nfigure, exp_user, act, labels, line, fileIDs)
     file = fopen(nameFile, 'r');
     vec = fscanf(file,'%f %f %f', [3 Inf]);
     vec = vec';
@@ -37,27 +37,29 @@ function line=representData(nameFile, nfigure, exp_user, act, labels, line)
     hold on
 
     while (~any(exp_user ~= labels(line,1:2)))
-       
-       activ=labels(line,3);
-       beg=labels(line,4);
-       fin=labels(line,5);
-       med=(beg+fin) /2;
-       for i = 1:3 
-           subplot(3,1,i);
-           plot(t(beg:fin), vec(beg:fin,i));
-           k = -1.25;
-           if mod(line,2)==0
-               k=2.25;
-           end
-           text((med+beg)/2*0.02/60, k, act(activ));
-           hold on;
-       end
-       % med=(beg+fin) /2;
-  
-       %t=annotation('textbox',[beg*0.02/60  fin*0.02/60],'String', act(activ));
-       %sz = t.FontSize;
-       %t.FontSize = 8;
-       line=line+1;
+        figure(nfigure)
+        activ=labels(line,3);
+        beg=labels(line,4);
+        fin=labels(line,5);
+        med=(beg+fin) /2;
+        for i = 1:3 
+            subplot(3,1,i);
+            plot(t(beg:fin), vec(beg:fin,i));
+            k = -1.25;
+            if mod(line,2)==0
+                k=2.25;
+            end
+            text((med+beg)/2*0.02/60, k, act(activ));
+            hold on;
+        end
+
+        dft_activity(vec(beg:fin,:), act(activ),fileIDs(activ) );
+        % med=(beg+fin) /2;
+    
+        %t=annotation('textbox',[beg*0.02/60  fin*0.02/60],'String', act(activ));
+        %sz = t.FontSize;
+        %t.FontSize = 8;
+        line=line+1;
     end
     
     %{for i =1:3

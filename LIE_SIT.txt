@@ -1,0 +1,10 @@
+New act
+x axis
+0 75.779
+Período: 1
+y axis
+0 49.3507
+Período: 1
+z axis
+0 40.6229
+Período: 1
