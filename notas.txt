@@ -27,3 +27,28 @@ GUIDELINES PARA O 4. :
 
 4.2 -> Fazer variar o tamanho da janela e tentar obter as atividades, tendo em conta também a relação
 resolução em tempo - resolução em frequência.
+
+
+3.1.
+Nesta fase inicial do trabalho, escolheu-se uma janela retangular. Isto deveu-se ao facto de as atividades estarem bem delimitadas temporalmente, não se verificando a presença de frequências que não estejam relacionadas com as outras. Ainda assim, os testes realizados com as janelas de Hamming e de Blackman permitiram concluir que estas janelas levavam a uma atenuação heterogénea das frequências, com destaque para as mais elevadas. Este facto permite uma atenuação dos efeitos da análise de transição entre atividades, pelo que se planeou utilizar a janela de Hamming na realização do exercício 4.
+
+3.3.
+
+
+3.4.
+
+Para a determinação do número de passos por minuto em cada atividade dinâmica, foi utilizada a função de autocorrelação em cada fragmento. Analisando esta função nas três coordenadas, o número de passos foi determinado com base na periodicidade evidenciada por este método, tendo sido escolhido um valor para o qual houvesse um pico da função de autocorrelação nas três coordenadas. A este pico estaria associado o número de amostras para um período do sinal. Multiplicando esse número pelo período de amostragem 0.02 s, obtém se o tempo correspondente a 2 passos (dado que um passo apenas leva a uma oscilação para um dos lados). Dividindo o tempo obtido por 2 e dividindo 60 segundos pelo resultado, obtém-se a estimativa esperada.
+//TODO: (COLOCAR A IMAGEM DE UM GRÁFICO)
+
+3.5.
+A partir da análise dos gráficos referentes a cada tipo de atividade, evidenciam-se vários aspetos que permitem distingui-los entre si. 
+Nas atividades estáticas, nota-se uma grande predominância da frequência 0 nos três eixos, não se verificando outra frequência relevante. Isto deve-se ao facto de não ocorrer nenhum tipo de movimento oscilatório relevante, já que o utilizador está parado.
+
+Já nas atividades dinâmicas, evidenciam-se várias frequências superiores a 0, que permitem inferir os vários movimentos oscilatórios e periódicos inerentes a estas atividades, tal como se pode ver no seguinte gráfico:
+//TODO: (COLOCAR A IMAGEM DE UM GRÁFICO)
+
+Nas atividades de transição, verifica-se um pico mais largo em torno do valor zero no eixo das frequências. Fica deste modo concretizada, no domínio da frequência, a transição de um gráfico de apenas uma frequência igual a 0 para um gráfico onde aparecem frequências de módulo superior a 0.
+
+//TODO: (COLOCAR A IMAGEM DE UM GRÁFICO)
+
+3.6.

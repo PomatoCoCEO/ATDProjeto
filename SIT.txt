@@ -1,20 +1,44 @@
 New act
-x axis
-0 354.894
-Período: 3
-y axis
-0 154.643
-Período: 1
-z axis
-0 186.556
-Período: 1
+0 1.66947
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 857.142857
+0 0.666587
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 333.333333
+0 0.845674
+Passos por minuto: 0.000000
+Passos por minuto: 3000.000000
 New act
-x axis
-0 480.077
-Período: 1
-y axis
-0 80.7975
-Período: 1
-z axis
-0 156.22
-Período: 1
+0 1.90986
+Passos por minuto: 0.000000
+Passos por minuto: 3000.000000
+0 0.318169
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 1000.000000
+0 0.621805
+Passos por minuto: 6000.000000

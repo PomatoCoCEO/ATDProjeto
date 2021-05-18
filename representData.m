@@ -35,10 +35,15 @@ function line=representData(nameFile, nfigure, exp_user, act, labels, line, file
     xlabel('t[min]')
     ylabel('acc')
     hold on
-
+    %nfigure=figure()
+    pks_cell={{{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}}};
+    freq_cell={{{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}}};
+    stft_samples(vec(:,3),256, @ones, 0.02);
+    figure();
+    spectrogram(vec(:,3), 256, 128,[],0.02);
     while (~any(exp_user ~= labels(line,1:2)))
         figure(nfigure)
-        activ=labels(line,3);
+        activ=labels(line,3);     
         beg=labels(line,4);
         fin=labels(line,5);
         med=(beg+fin) /2;
@@ -52,8 +57,7 @@ function line=representData(nameFile, nfigure, exp_user, act, labels, line, file
             text((med+beg)/2*0.02/60, k, act(activ));
             hold on;
         end
-
-        dft_activity(vec(beg:fin,:), act(activ),fileIDs(activ) );
+        [freq_cell, pks_cell] =dft_activity(vec(beg:fin,:), act(activ), activ, fileIDs(activ), freq_cell, pks_cell);
         % med=(beg+fin) /2;
     
         %t=annotation('textbox',[beg*0.02/60  fin*0.02/60],'String', act(activ));
@@ -61,7 +65,10 @@ function line=representData(nameFile, nfigure, exp_user, act, labels, line, file
         %t.FontSize = 8;
         line=line+1;
     end
-    
+
+    plot_freq_same_type(pks_cell, freq_cell,act);
+    plot_all_freq(pks_cell, freq_cell,act);
+
     %{for i =1:3
         %subplot(3,1,i);
         %xtickangle(45);

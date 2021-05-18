@@ -1,10 +1,12 @@
 New act
-x axis
-0 57.2974
-Período: 1
-y axis
-0 68.6971
-Período: 1
-z axis
-0 40.4072
-Período: 1
+0 0.582509
+0.78125 0.105152
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 1500.000000
+0 1.24339
+Passos por minuto: 6000.000000
+0 0.721889
+Passos por minuto: 0.000000
+Passos por minuto: 3000.000000
