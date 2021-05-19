@@ -38,9 +38,9 @@ function line=representData(nameFile, nfigure, exp_user, act, labels, line, file
     %nfigure=figure()
     pks_cell={{{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}}};
     freq_cell={{{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}}};
-    stft_samples(vec(:,3),256, @ones, 0.02);
+    stft_samples(vec(:,3),256, 128, @ones, 0.02);
     figure();
-    spectrogram(vec(:,3), 256, 128,[],0.02);
+    spectrogram(vec(:,3), 256, 128,[],2*pi/0.02);
     while (~any(exp_user ~= labels(line,1:2)))
         figure(nfigure)
         activ=labels(line,3);     
