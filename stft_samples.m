@@ -4,7 +4,7 @@ function mat = stft_samples(sample, windowSize, superposSize, windowFunc, tSampl
     % nSuperpos = windowSize/2;
     delta = windowSize-superposSize;
     % no_windows = floor((length(sample)-windowSize)/nSuperpos+1);
-    aidWindow = windowFunc(windowSize, 1);
+    aidWindow = windowFunc(windowSize);
     % n_passes = floor((len-nSamplesWindow)/nSamplesSuperposition+1);
     vals = 1:delta:length(sample)-windowSize+1;
     no_windows = length(vals);
@@ -24,13 +24,17 @@ function mat = stft_samples(sample, windowSize, superposSize, windowFunc, tSampl
         %}
         dft(2:end) = 2*dft(2:end);
         
-        mat(no_windows-k+1, :)= dft;
+        mat(k, :)= dft;
         k = k+1;
     end
     figure()
     xAx = [0 windowSize-1]/(tSample*windowSize);
-    yAx = [1, length(sample)-windowSize+1].*tSample;
+    yAx = [length(sample)-windowSize+1, 0].*tSample;
     image(xAx, yAx, mat, 'CDataMapping', 'scaled');
+    % set(gca, 'Yaxis', 'reverse')
+    % axes('Position',[xAx, yAx]);
+    %h1=axes;
+    %set(h1, 'Ydir', 'reverse')
     xlabel('Frequência [Hz]');
     ylabel('Tempo[s]')
     % ylim([0, ])

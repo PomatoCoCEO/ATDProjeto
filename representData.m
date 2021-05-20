@@ -1,4 +1,4 @@
-function line=representData(nameFile, nfigure, exp_user, act, labels, line, fileIDs)
+function []=representData(nameFile, nfigure, exp_user, act, labels, line, fileIDs)
     file = fopen(nameFile, 'r');
     vec = fscanf(file,'%f %f %f', [3 Inf]);
     vec = vec';
@@ -38,14 +38,19 @@ function line=representData(nameFile, nfigure, exp_user, act, labels, line, file
     %nfigure=figure()
     pks_cell={{{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}}};
     freq_cell={{{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}} {{[]} {[]} {[]}}};
-    stft_samples(vec(:,3),256, 128, @ones, 0.02);
+    stft_samples(vec(:,3),256, 128, @hamming, 0.02);
     figure();
-    spectrogram(vec(:,3), 256, 128,[],2*pi/0.02);
+    spectrogram(vec(:,3), 256, 128,[],50);
+    lineBefore = line;
+    begs=[];
+    fin=0;
     while (~any(exp_user ~= labels(line,1:2)))
         figure(nfigure)
         activ=labels(line,3);     
         beg=labels(line,4);
         fin=labels(line,5);
+        begs=[begs beg];
+        % fins=[fins fin];
         med=(beg+fin) /2;
         for i = 1:3 
             subplot(3,1,i);
@@ -66,8 +71,35 @@ function line=representData(nameFile, nfigure, exp_user, act, labels, line, file
         line=line+1;
     end
 
-    plot_freq_same_type(pks_cell, freq_cell,act);
-    plot_all_freq(pks_cell, freq_cell,act);
+    % plot_freq_same_type(pks_cell, freq_cell,act);
+    % plot_all_freq(pks_cell, freq_cell,act);
+    N=110;
+    avgDftAid = avgDfts(N,vec(:,3),labels,lineBefore);
+    begTot = begs(1)
+    % finTot = fins(size(fins));
+    fileIdFile = fopen('results.txt', 'w');
+
+    for m = 1:N-floor(0.9*N):fin-N+1;
+        spl = vec(m:m+N-1, 3); % ordenada z
+        fftSample = hamming(N) .* abs(fftshift(fft(spl)))/N;
+        % disp(size(spl));
+        % disp(size(avgDftAid));
+        % normalizar para melhor precisão
+        % fout = fout/norm(fout);
+
+        correlations = zeros(12,1);
+        for n=1:12
+            correlations(n)= vpa(sum((avgDftAid(n,:)- fftSample').^2));
+        end
+        %disp(correlations);
+        activity = find(correlations == min(correlations));
+        % disp(act);
+        % disp(activity);
+        % fprintf('t=%f s -> %s\n', m*0.02, act(activity));
+        
+        fprintf(fileIdFile, '%d\n', activity);
+        % disp(act(activity));
+    end
 
     %{for i =1:3
         %subplot(3,1,i);

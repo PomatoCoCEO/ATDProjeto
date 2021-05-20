@@ -15,7 +15,7 @@ d = ls('acc*.txt');
 %disp(size(d,1))
 %disp(d(1,:))
 a = size(d,1);
-line=1;
+lines=[1 23 46 66 86 107 127 148];
 
 %disp(imp(1,:))
 %disp(labels(1,1:2))
@@ -26,15 +26,11 @@ for i = 1:length(actFiles)
     fileIds = [fileIds fopen(strcat(actFiles(i), '.txt'), 'w')];
 end
 
-for g=1:1 %length(imp) %a
-    line=representData(d(g,:), g, imp(g,:), act,labels,line, fileIds);
-
+for g=8:8%7:7%6:6%5:5 %4:4%3:3 %2:2 % 1:1% numel(lines) %length(imp) %a
+    representData(d(g,:), g, imp(g,:), act,labels,lines(g), fileIds);
 end
 
 for i = 1:length(act)
     fclose(fileIds(i));
 end
     %disp(d(g,:))
-
-
-

@@ -47,8 +47,8 @@ Nas atividades estáticas, nota-se uma grande predominância da frequência 0 no
 Já nas atividades dinâmicas, evidenciam-se várias frequências superiores a 0, que permitem inferir os vários movimentos oscilatórios e periódicos inerentes a estas atividades, tal como se pode ver no seguinte gráfico:
 //TODO: (COLOCAR A IMAGEM DE UM GRÁFICO)
 
-Nas atividades de transição, verifica-se um pico mais largo em torno do valor zero no eixo das frequências. Fica deste modo concretizada, no domínio da frequência, a transição de um gráfico de apenas uma frequência igual a 0 para um gráfico onde aparecem frequências de módulo superior a 0.
+Nas atividades de transição, verifica-se um pico largo em torno do valor zero no eixo das frequências. Fica deste modo concretizada, no domínio da frequência, a transição de um gráfico de apenas uma frequência igual a 0 para um gráfico onde aparecem frequências de módulo superior a 0.
 
 //TODO: (COLOCAR A IMAGEM DE UM GRÁFICO)
 
-3.6.
+3.6. Após a análise que permite distinguir cada categoria de atividade, resta obter com maior precisão o tipo específico a que um dado espetro se refere

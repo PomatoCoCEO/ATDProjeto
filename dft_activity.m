@@ -1,7 +1,7 @@
 function [freq_cell, pks_cell] = dft_activity(samples_activity, act_label, act, fileID, freq_cell, pks_cell)
     % exercício 3 - experiência
     ts = 0.02;
-    threshold = 0.15;
+    threshold = 0.20;
     % file = fopen(nameFile, 'r');
     dim_names = ["x axis", "y axis", "z axis"];
     ham = hamming(numel(samples_activity(:, 1)));
