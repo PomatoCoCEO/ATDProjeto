@@ -1,0 +1,459 @@
+New act
+0 1.95517
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 98.360656
+0 0.310482
+1.50555 0.154404
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 96.774194
+0.792393 0.142008
+1.50555 0.0834334
+0 0.0517191
+1.10935 0.0367696
+0.475436 0.030446
+Passos por minuto: 6000.000000
+New act
+0 1.93878
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 200.000000
+0 0.337984
+1.5015 0.143569
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 193.548387
+0.750751 0.187425
+1.5015 0.0641067
+0 0.0606231
+0.900901 0.0395765
+1.65165 0.0335076
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 93.750000
+New act
+0 1.94776
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 187.500000
+0 0.330556
+1.48588 0.154149
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 187.500000
+0.742942 0.191659
+1.48588 0.0816918
+0 0.0604301
+2.22883 0.0281666
+1.263 0.0241653
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 92.307692
+New act
+0 1.91979
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 206.896552
+0 0.369696
+1.60061 0.169902
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 100.000000
+0.762195 0.165737
+0 0.118722
+1.60061 0.0589795
+2.3628 0.0348576
+2.51524 0.0265534
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 98.360656
+New act
+0 0.95305
+1.54639 0.21818
+Passos por minuto: 0.000000
+Passos por minuto: 206.896552
+0 0.376653
+1.54639 0.180015
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 193.548387
+0.736377 0.143344
+0 0.0917914
+1.54639 0.0690471
+0.589102 0.0323622
+2.43004 0.0280541
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 96.774194
+New act
+0 0.953184
+1.49786 0.214126
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 93.750000
+0 0.372432
+1.49786 0.178183
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 187.500000
+0.713267 0.139647
+0 0.086547
+1.49786 0.0748859
+0.499287 0.0338338
+2.21113 0.0260122
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 92.307692
+New act
+0 0.914364
+1.55325 0.205254
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 100.000000
+0 0.393487
+1.55325 0.137449
+0.739645 0.0892282
+Passos por minuto: 101.694915
+0 0.263572
+1.55325 0.120627
+0.739645 0.101731
+Passos por minuto: 6000.000000
+New act
+0 0.845188
+1.64319 0.20635
+Passos por minuto: 0.000000
+Passos por minuto: 222.222222
+0 0.315569
+0.782473 0.120439
+1.64319 0.102244
+Passos por minuto: 0.000000
+Passos por minuto: 105.263158
+0 0.476006
+1.64319 0.155513
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 107.142857
+New act
+0 1.58906
+Passos por minuto: 0.000000
+Passos por minuto: 230.769231
+0 0.296827
+0.816993 0.164583
+1.63399 0.0692875
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 103.448276
+0 0.584382
+1.63399 0.129141
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 107.142857
+New act
+0 1.87537
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 107.142857
+0 0.452432
+1.5748 0.115422
+Passos por minuto: 0.000000
+Passos por minuto: 107.142857
+0.787402 0.104223
+1.5748 0.0546642
+0.944882 0.0421381
+3.46457 0.0347996
+0 0.0332327
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 105.263158
+New act
+0 1.8627
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 214.285714
+0 0.468148
+1.70178 0.137857
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 111.111111
+0.810373 0.110381
+1.70178 0.0535906
+0.567261 0.0330868
+3.64668 0.0283752
+0 0.0275639
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 109.090909
+New act
+0 0.923704
+1.66667 0.202779
+Passos por minuto: 0.000000
+Passos por minuto: 230.769231
+0 0.475046
+1.66667 0.142049
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 111.111111
+0.877193 0.0919631
+1.66667 0.0642676
+3.50877 0.0286031
+1.40351 0.0265644
+1.84211 0.0257135
+Passos por minuto: 0.000000
+Passos por minuto: 109.090909
+New act
+0 1.92023
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 171.428571
+0 0.367748
+1.40325 0.127113
+Passos por minuto: 0.000000
+Passos por minuto: 176.470588
+0 0.137186
+0.664697 0.0712833
+1.40325 0.0417294
+Passos por minuto: 6000.000000
+New act
+0 0.963971
+1.5949 0.226619
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 206.896552
+0 0.367936
+1.5949 0.134311
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 100.000000
+0 0.14677
+0.797448 0.103783
+1.5949 0.0394041
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 98.360656
+New act
+0 1.9079
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 206.896552
+0 0.375964
+1.72414 0.122164
+Passos por minuto: 0.000000
+Passos por minuto: 206.896552
+0 0.137764
+0.824588 0.0760661
+1.72414 0.0379733
+2.54873 0.0326078
+Passos por minuto: 6000.000000
+New act
+0 0.954399
+1.78282 0.263165
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 222.222222
+0 0.38773
+1.78282 0.16886
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 222.222222
+0 0.145617
+0.89141 0.102699
+1.78282 0.0566594
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 111.111111
+New act
+0 0.960567
+1.53959 0.221342
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 200.000000
+0 0.352643
+1.53959 0.124773
+Passos por minuto: 0.000000
+Passos por minuto: 187.500000
+0 0.18572
+0.733138 0.0651157
+1.53959 0.0431496
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 96.774194
+New act
+0 1.90671
+Passos por minuto: 0.000000
+Passos por minuto: 214.285714
+0 0.375166
+1.67464 0.135542
+Passos por minuto: 0.000000
+Passos por minuto: 50.420168
+0 0.201781
+0.797448 0.0949245
+1.67464 0.058247
+2.47209 0.0439842
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 101.694915
+New act
+0 1.89993
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 206.896552
+0 0.370698
+1.57729 0.139777
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 200.000000
+0 0.213006
+0.788644 0.104688
+1.57729 0.0559074
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 98.360656
+New act
+0 2.01056
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 171.428571
+0 0.233236
+1.27389 0.0797939
+1.40127 0.0684425
+Passos por minuto: 6000.000000
+0.636943 0.100631
+0 0.072109
+1.27389 0.0314485
+1.40127 0.0265523
+0.509554 0.0257472
+Passos por minuto: 0.000000
+Passos por minuto: 3000.000000
+New act
+0 2.00403
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 200.000000
+0 0.23555
+1.53734 0.0903683
+Passos por minuto: 0.000000
+Passos por minuto: 95.238095
+0.732064 0.0763111
+0 0.0693977
+1.53734 0.0303819
+3.14788 0.0227012
+0.512445 0.0204387
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 96.774194
+New act
+0 1.00546
+1.56986 0.245491
+Passos por minuto: 0.000000
+Passos por minuto: 214.285714
+0 0.238457
+1.56986 0.121395
+3.21821 0.0531699
+Passos por minuto: 103.448276
+0.784929 0.107751
+0 0.0581306
+1.56986 0.0519862
+0.941915 0.0268653
+3.45369 0.0234424
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 101.694915
+New act
+0 1.0066
+1.66667 0.317532
+Passos por minuto: 0.000000
+Passos por minuto: 222.222222
+0 0.205257
+1.66667 0.118134
+3.33333 0.0677447
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 105.263158
+0.833333 0.133072
+0 0.0823264
+1.66667 0.0634396
+2.5 0.0362086
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 103.448276
+New act
+0 1.01019
+1.67464 0.254635
+Passos por minuto: 0.000000
+Passos por minuto: 222.222222
+0 0.214622
+1.67464 0.106598
+3.42903 0.0604328
+2.47209 0.0482667
+4.22648 0.0459439
+Passos por minuto: 0.000000
+Passos por minuto: 105.263158
+0.797448 0.0978498
+0 0.0753788
+1.67464 0.0439393
+2.47209 0.037275
+0.637959 0.0248943
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 103.448276
+New act
+0 1.00123
+1.70178 0.281433
+Passos por minuto: 0.000000
+Passos por minuto: 230.769231
+0 0.231013
+1.70178 0.109901
+3.56564 0.0691403
+Passos por minuto: 0.000000
+Passos por minuto: 111.111111
+0.89141 0.0937165
+0 0.0742954
+1.70178 0.0592612
+2.59319 0.0297469
+2.8363 0.0210033
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 0.000000
+Passos por minuto: 107.142857

@@ -1,0 +1,132 @@
+Por utilizador, diferença simples, N = 220, overlap = 198 
+Percentagem de sucesso: 72.484277%
+Percentagem de sucesso: 72.082019%
+Percentagem de sucesso: 60.338983%
+Percentagem de sucesso: 70.888469%
+Percentagem de sucesso: 56.756757%
+Percentagem de sucesso: 62.189055%
+Percentagem de sucesso: 72.408027%
+Percentagem de sucesso: 61.010830%
+Média : 66.019802%
+Por utilizador, diferença simples, N = 110, overlap = 99 
+Percentagem de sucesso: 71.608833%
+Percentagem de sucesso: 70.797159%
+Percentagem de sucesso: 44.115157%
+Percentagem de sucesso: 73.044298%
+Percentagem de sucesso: 56.642800%
+Percentagem de sucesso: 57.855362%
+Percentagem de sucesso: 55.120733%
+Percentagem de sucesso: 56.407942%
+Média : 60.699035%
+Correção Hamming; por utilizador, diferença quadrática, N = 110, overlap = 99 
+Percentagem de sucesso: 74.921136%
+Percentagem de sucesso: 73.796369%
+Percentagem de sucesso: 43.945809%
+Percentagem de sucesso: 83.600377%
+Percentagem de sucesso: 56.722355%
+Percentagem de sucesso: 77.140482%
+Percentagem de sucesso: 69.442132%
+Percentagem de sucesso: 81.498195%
+Média : 70.133357%
+Correção Hamming; por utilizador, diferença quadrática, N = 220, overlap = 198 
+Percentagem de sucesso: 77.830189%
+Percentagem de sucesso: 70.820189%
+Percentagem de sucesso: 44.406780%
+Percentagem de sucesso: 78.827977%
+Percentagem de sucesso: 69.475358%
+Percentagem de sucesso: 78.275290%
+Percentagem de sucesso: 70.568562%
+Percentagem de sucesso: 77.256318%
+Média : 70.932583%
+Correção Hamming; por utilizador, diferença quadrática, N = 128, overlap = 1.152000e+02 
+Percentagem de sucesso: 74.674115%
+Percentagem de sucesso: 73.669468%
+Percentagem de sucesso: 45.445445%
+Percentagem de sucesso: 83.705357%
+Percentagem de sucesso: 59.322034%
+Percentagem de sucesso: 81.558185%
+Percentagem de sucesso: 70.384995%
+Percentagem de sucesso: 82.409382%
+Média : 71.396123%
+Correção Hamming; por utilizador, diferença quadrática, N = 110, overlap = 55 
+Correção Hamming; por utilizador, diferença quadrática, N = 110, overlap = 55 
+Percentagem de sucesso: 74.703557%
+Percentagem de sucesso: 72.941176%
+Percentagem de sucesso: 42.735043%
+Percentagem de sucesso: 83.886256%
+Percentagem de sucesso: 58.498024%
+Percentagem de sucesso: 77.916667%
+Percentagem de sucesso: 69.166667%
+Percentagem de sucesso: 82.805430%
+Média : 70.331602%
+Correção Hamming; por utilizador, diferença quadrática, N = 256, overlap = 128 
+Percentagem de sucesso: 77.272727%
+Percentagem de sucesso: 66.355140%
+Percentagem de sucesso: 44.117647%
+Percentagem de sucesso: 78.888889%
+Percentagem de sucesso: 68.181818%
+Percentagem de sucesso: 74.509804%
+Percentagem de sucesso: 67.961165%
+Percentagem de sucesso: 71.276596%
+Média : 68.570473%
+Correção Hamming; por utilizador, diferença quadrática, N = 512, overlap = 256 
+Percentagem de sucesso: 66.071429%
+Percentagem de sucesso: 54.716981%
+Percentagem de sucesso: 43.137255%
+Percentagem de sucesso: 65.909091%
+Percentagem de sucesso: 60.000000%
+Percentagem de sucesso: 64.705882%
+Percentagem de sucesso: 64.705882%
+Percentagem de sucesso: 55.555556%
+Média : 59.350259%
+Correção Hamming; por utilizador, diferença quadrática, N = 192, overlap = 96 
+Percentagem de sucesso: 72.108844%
+Percentagem de sucesso: 73.426573%
+Percentagem de sucesso: 43.283582%
+Percentagem de sucesso: 81.818182%
+Percentagem de sucesso: 68.750000%
+Percentagem de sucesso: 78.676471%
+Percentagem de sucesso: 69.117647%
+Percentagem de sucesso: 80.000000%
+Média : 70.897662%
+Correção Hamming; por utilizador, diferença quadrática, N = 100, overlap = 50 
+Percentagem de sucesso: 73.214286%
+Percentagem de sucesso: 73.118280%
+Percentagem de sucesso: 44.061303%
+Percentagem de sucesso: 85.344828%
+Percentagem de sucesso: 57.194245%
+Percentagem de sucesso: 73.106061%
+Percentagem de sucesso: 68.939394%
+Percentagem de sucesso: 78.861789%
+Média : 69.230023%
+Correção Hamming; por utilizador, diferença quadrática, N = 101, overlap = 5.050000e+01 
+Percentagem de sucesso: 75.636364%
+Percentagem de sucesso: 71.167883%
+Percentagem de sucesso: 43.137255%
+Percentagem de sucesso: 82.456140%
+Percentagem de sucesso: 54.981550%
+Percentagem de sucesso: 73.076923%
+Percentagem de sucesso: 70.542636%
+Percentagem de sucesso: 80.416667%
+Média : 68.926927%
+Correção Hamming; por utilizador, diferença quadrática, N = 102, overlap = 51 
+Percentagem de sucesso: 75.272727%
+Percentagem de sucesso: 71.532847%
+Percentagem de sucesso: 43.137255%
+Percentagem de sucesso: 82.017544%
+Percentagem de sucesso: 55.719557%
+Percentagem de sucesso: 73.846154%
+Percentagem de sucesso: 70.155039%
+Percentagem de sucesso: 80.753138%
+Média : 69.054283%
+Correção Hamming; por utilizador, diferença quadrática, N = 103, overlap = 5.150000e+01 
+Percentagem de sucesso: 72.862454%
+Percentagem de sucesso: 73.431734%
+Percentagem de sucesso: 44.176707%
+Percentagem de sucesso: 82.062780%
+Percentagem de sucesso: 56.390977%
+Percentagem de sucesso: 72.727273%
+Percentagem de sucesso: 69.169960%
+Percentagem de sucesso: 79.059829%
+Média : 68.735214%
+Correção Hamming; por utilizador, diferença quadrática, N = 104, overlap = 52 

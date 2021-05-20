@@ -1,4 +1,4 @@
-function avgDft = avgDfts(N,vec_z1, vec_z2, labels, posInit)
+function avgDft = avgDft_exp(N,vec_z1, vec_z2, labels, posInit)
     avgDft = zeros(12, N);
     noSamples = [0,0,0,0,0,0,0,0,0,0,0,0];
     k=posInit;

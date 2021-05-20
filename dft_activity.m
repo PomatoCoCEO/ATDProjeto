@@ -12,9 +12,7 @@ function [freq_cell, pks_cell] = dft_activity(samples_activity, act_label, act, 
     if mod(N, 2) == 1
         nAxis = nAxis + 1 / (2 * N);
     end
-
     nAxis = nAxis / ts;
-
     %fileID = fopen(strcat(act_label, ".txt"), 'a');
     fprintf(fileID, 'New act\n');
 
@@ -29,7 +27,7 @@ function [freq_cell, pks_cell] = dft_activity(samples_activity, act_label, act, 
         one_dir = samples_activity(:, i);
         dft_sample_one_dir = fftshift(fft(one_dir)) / numel(one_dir);
         dft_sample_one_dir(abs(dft_sample_one_dir) < 0.000001) = 0;
-        dft_sample_one_dir_ham = fftshift(fft(one_dir .* ham)) / numel(one_dir);
+        dft_sample_one_dir_ham = fftshift(fft(one_dir .* ham)) / numel(one_dir); %!!!! perguntar ao prof: magnitude vs amplitude 
         dft_sample_one_dir_ham(abs(dft_sample_one_dir_ham) < 0.000001) = 0;
         %figure(k2)
 

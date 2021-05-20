@@ -1,13 +1,12 @@
-function avgDft = avgDfts(N,vec_z1, vec_z2, labels, posInit)
+function avgDft = avgDft_exp(N,vec_z, labels, posInit)
     avgDft = zeros(12, N);
     noSamples = [0,0,0,0,0,0,0,0,0,0,0,0];
     k=posInit;
     ant = labels(k,1:2);
     begin_range=0;
-    vec_z=vec_z1;
     while (k~=numel(labels) && labels(k,2) == ant(2)) 
         if labels(k,1) < ant(1)
-            vec_z=vec_z2;
+            break;
         end;
         noAct = labels(k,3);
         superpos = floor(0.9*N);

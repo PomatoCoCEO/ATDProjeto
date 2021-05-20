@@ -3,15 +3,16 @@
 using namespace std;
 
 int main(int argc, char** argv){
-    if(argc < 1) {
-        cout<<"Usage: ./minima <no_experiment>"<<endl;
+    if(argc < 3) {
+        cout<<"Usage: ./minima <no_experiment> <no_window>"<<endl;
     }
     vector<int> labels=vector<int>();
-    int  a,b, act, beg, end;
-
-    int window = 110;
+    int a,b, act, beg, end;
+    // int window = 110;
     int no_exp=atoi(argv[1]);
+    int window = atoi(argv[2]);
     int k = 0;
+    
     while( cin>> a>>b>>act>> beg>>end){
         if(a<no_exp) continue;
         if(a>no_exp) break;
