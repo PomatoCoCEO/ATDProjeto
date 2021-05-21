@@ -1,132 +1,194 @@
-Por utilizador, diferença simples, N = 220, overlap = 198 
-Percentagem de sucesso: 72.484277%
-Percentagem de sucesso: 72.082019%
-Percentagem de sucesso: 60.338983%
-Percentagem de sucesso: 70.888469%
-Percentagem de sucesso: 56.756757%
-Percentagem de sucesso: 62.189055%
-Percentagem de sucesso: 72.408027%
-Percentagem de sucesso: 61.010830%
-Média : 66.019802%
-Por utilizador, diferença simples, N = 110, overlap = 99 
-Percentagem de sucesso: 71.608833%
-Percentagem de sucesso: 70.797159%
-Percentagem de sucesso: 44.115157%
-Percentagem de sucesso: 73.044298%
-Percentagem de sucesso: 56.642800%
-Percentagem de sucesso: 57.855362%
-Percentagem de sucesso: 55.120733%
-Percentagem de sucesso: 56.407942%
-Média : 60.699035%
-Correção Hamming; por utilizador, diferença quadrática, N = 110, overlap = 99 
-Percentagem de sucesso: 74.921136%
-Percentagem de sucesso: 73.796369%
-Percentagem de sucesso: 43.945809%
-Percentagem de sucesso: 83.600377%
-Percentagem de sucesso: 56.722355%
-Percentagem de sucesso: 77.140482%
-Percentagem de sucesso: 69.442132%
-Percentagem de sucesso: 81.498195%
-Média : 70.133357%
-Correção Hamming; por utilizador, diferença quadrática, N = 220, overlap = 198 
-Percentagem de sucesso: 77.830189%
-Percentagem de sucesso: 70.820189%
-Percentagem de sucesso: 44.406780%
-Percentagem de sucesso: 78.827977%
-Percentagem de sucesso: 69.475358%
-Percentagem de sucesso: 78.275290%
-Percentagem de sucesso: 70.568562%
-Percentagem de sucesso: 77.256318%
-Média : 70.932583%
-Correção Hamming; por utilizador, diferença quadrática, N = 128, overlap = 1.152000e+02 
-Percentagem de sucesso: 74.674115%
-Percentagem de sucesso: 73.669468%
-Percentagem de sucesso: 45.445445%
-Percentagem de sucesso: 83.705357%
-Percentagem de sucesso: 59.322034%
-Percentagem de sucesso: 81.558185%
-Percentagem de sucesso: 70.384995%
-Percentagem de sucesso: 82.409382%
-Média : 71.396123%
-Correção Hamming; por utilizador, diferença quadrática, N = 110, overlap = 55 
-Correção Hamming; por utilizador, diferença quadrática, N = 110, overlap = 55 
-Percentagem de sucesso: 74.703557%
-Percentagem de sucesso: 72.941176%
-Percentagem de sucesso: 42.735043%
-Percentagem de sucesso: 83.886256%
-Percentagem de sucesso: 58.498024%
-Percentagem de sucesso: 77.916667%
-Percentagem de sucesso: 69.166667%
-Percentagem de sucesso: 82.805430%
-Média : 70.331602%
-Correção Hamming; por utilizador, diferença quadrática, N = 256, overlap = 128 
-Percentagem de sucesso: 77.272727%
-Percentagem de sucesso: 66.355140%
-Percentagem de sucesso: 44.117647%
-Percentagem de sucesso: 78.888889%
-Percentagem de sucesso: 68.181818%
-Percentagem de sucesso: 74.509804%
-Percentagem de sucesso: 67.961165%
-Percentagem de sucesso: 71.276596%
-Média : 68.570473%
-Correção Hamming; por utilizador, diferença quadrática, N = 512, overlap = 256 
-Percentagem de sucesso: 66.071429%
-Percentagem de sucesso: 54.716981%
-Percentagem de sucesso: 43.137255%
-Percentagem de sucesso: 65.909091%
-Percentagem de sucesso: 60.000000%
-Percentagem de sucesso: 64.705882%
-Percentagem de sucesso: 64.705882%
-Percentagem de sucesso: 55.555556%
-Média : 59.350259%
-Correção Hamming; por utilizador, diferença quadrática, N = 192, overlap = 96 
-Percentagem de sucesso: 72.108844%
-Percentagem de sucesso: 73.426573%
-Percentagem de sucesso: 43.283582%
-Percentagem de sucesso: 81.818182%
-Percentagem de sucesso: 68.750000%
-Percentagem de sucesso: 78.676471%
-Percentagem de sucesso: 69.117647%
-Percentagem de sucesso: 80.000000%
-Média : 70.897662%
-Correção Hamming; por utilizador, diferença quadrática, N = 100, overlap = 50 
-Percentagem de sucesso: 73.214286%
-Percentagem de sucesso: 73.118280%
-Percentagem de sucesso: 44.061303%
-Percentagem de sucesso: 85.344828%
-Percentagem de sucesso: 57.194245%
-Percentagem de sucesso: 73.106061%
-Percentagem de sucesso: 68.939394%
-Percentagem de sucesso: 78.861789%
-Média : 69.230023%
-Correção Hamming; por utilizador, diferença quadrática, N = 101, overlap = 5.050000e+01 
-Percentagem de sucesso: 75.636364%
-Percentagem de sucesso: 71.167883%
-Percentagem de sucesso: 43.137255%
-Percentagem de sucesso: 82.456140%
-Percentagem de sucesso: 54.981550%
-Percentagem de sucesso: 73.076923%
-Percentagem de sucesso: 70.542636%
-Percentagem de sucesso: 80.416667%
-Média : 68.926927%
-Correção Hamming; por utilizador, diferença quadrática, N = 102, overlap = 51 
-Percentagem de sucesso: 75.272727%
-Percentagem de sucesso: 71.532847%
-Percentagem de sucesso: 43.137255%
-Percentagem de sucesso: 82.017544%
-Percentagem de sucesso: 55.719557%
-Percentagem de sucesso: 73.846154%
-Percentagem de sucesso: 70.155039%
-Percentagem de sucesso: 80.753138%
-Média : 69.054283%
-Correção Hamming; por utilizador, diferença quadrática, N = 103, overlap = 5.150000e+01 
-Percentagem de sucesso: 72.862454%
-Percentagem de sucesso: 73.431734%
-Percentagem de sucesso: 44.176707%
-Percentagem de sucesso: 82.062780%
-Percentagem de sucesso: 56.390977%
-Percentagem de sucesso: 72.727273%
-Percentagem de sucesso: 69.169960%
-Percentagem de sucesso: 79.059829%
-Média : 68.735214%
-Correção Hamming; por utilizador, diferença quadrática, N = 104, overlap = 52 
+Correção avgDft, Correção Hamming; por utilizador, diferença quadrática, N = 100, overlap = 50 
+p_sucesso=75.714286%
+p_sucesso=78.136201%desvio=2
+p_sucesso_tipo=81.071429%
+p_sucesso_tipo=82.437276%desvio=2
+p_sucesso=73.118280%
+p_sucesso=78.057554%desvio=2
+p_sucesso_tipo=89.605735%
+p_sucesso_tipo=94.604317%desvio=2
+p_sucesso=61.685824%
+p_sucesso=61.685824%desvio=1
+p_sucesso_tipo=87.739464%
+p_sucesso_tipo=88.846154%desvio=2
+p_sucesso=85.344828%
+p_sucesso=87.012987%desvio=2
+p_sucesso_tipo=89.655172%
+p_sucesso_tipo=91.341991%desvio=2
+p_sucesso=60.071942%
+p_sucesso=60.649819%desvio=2
+p_sucesso_tipo=79.856115%
+p_sucesso_tipo=81.949458%desvio=2
+p_sucesso=73.106061%
+p_sucesso=74.904943%desvio=2
+p_sucesso_tipo=87.500000%
+p_sucesso_tipo=89.733840%desvio=2
+p_sucesso=70.454545%
+p_sucesso=72.243346%desvio=2
+p_sucesso_tipo=84.469697%
+p_sucesso_tipo=88.212928%desvio=2
+p_sucesso=78.861789%
+p_sucesso=80.816327%desvio=2
+p_sucesso_tipo=88.617886%
+p_sucesso_tipo=89.795918%desvio=2
+media=72.294694%
+media_desvio=74.188375%
+media_tipo=86.064437%
+media_tipo_desvio=88.365235%
+Correção avgDft, Correção Hamming; por utilizador, diferença quadrática, N = 105, overlap = 5.250000e+01 
+p_sucesso=75.563910%
+p_sucesso=76.226415%desvio=2
+p_sucesso_tipo=80.075188%
+p_sucesso_tipo=80.754717%desvio=2
+p_sucesso=73.764259%
+p_sucesso=78.244275%desvio=2
+p_sucesso_tipo=89.733840%
+p_sucesso_tipo=94.656489%desvio=2
+p_sucesso=61.382114%
+p_sucesso=61.632653%desvio=2
+p_sucesso_tipo=87.804878%
+p_sucesso_tipo=88.571429%desvio=2
+p_sucesso=81.447964%
+p_sucesso=83.636364%desvio=2
+p_sucesso_tipo=86.877828%
+p_sucesso_tipo=89.090909%desvio=2
+p_sucesso=58.015267%
+p_sucesso=59.003831%desvio=2
+p_sucesso_tipo=77.099237%
+p_sucesso_tipo=81.226054%desvio=2
+p_sucesso=75.903614%
+p_sucesso=77.419355%desvio=2
+p_sucesso_tipo=88.755020%
+p_sucesso_tipo=90.725806%desvio=2
+p_sucesso=69.354839%
+p_sucesso=71.255061%desvio=2
+p_sucesso_tipo=82.661290%
+p_sucesso_tipo=87.044534%desvio=2
+p_sucesso=80.000000%
+p_sucesso=82.969432%desvio=2
+p_sucesso_tipo=89.130435%
+p_sucesso_tipo=90.393013%desvio=2
+media=71.928996%
+media_desvio=73.798423%
+media_tipo=85.267215%
+media_tipo_desvio=87.807869%
+Correção avgDft, Correção Hamming; por utilizador, diferença quadrática, N = 110, overlap = 55 
+p_sucesso=74.308300%
+p_sucesso=75.793651%desvio=2
+p_sucesso_tipo=79.446640%
+p_sucesso_tipo=80.158730%desvio=2
+p_sucesso=72.941176%
+p_sucesso=78.346457%desvio=2
+p_sucesso_tipo=88.235294%
+p_sucesso_tipo=93.307087%desvio=2
+p_sucesso=62.393162%
+p_sucesso=62.660944%desvio=2
+p_sucesso_tipo=89.743590%
+p_sucesso_tipo=91.416309%desvio=2
+p_sucesso=83.886256%
+p_sucesso=87.619048%desvio=2
+p_sucesso_tipo=88.625592%
+p_sucesso_tipo=93.333333%desvio=2
+p_sucesso=60.474308%
+p_sucesso=63.095238%desvio=2
+p_sucesso_tipo=77.865613%
+p_sucesso_tipo=83.333333%desvio=2
+p_sucesso=77.916667%
+p_sucesso=79.916318%desvio=2
+p_sucesso_tipo=90.416667%
+p_sucesso_tipo=93.305439%desvio=2
+p_sucesso=70.416667%
+p_sucesso=71.966527%desvio=2
+p_sucesso_tipo=83.750000%
+p_sucesso_tipo=87.866109%desvio=2
+p_sucesso=82.805430%
+p_sucesso=85.000000%desvio=2
+p_sucesso_tipo=90.045249%
+p_sucesso_tipo=92.727273%desvio=2
+media=73.142746%
+media_desvio=75.549773%
+media_tipo=86.016081%
+media_tipo_desvio=89.430952%
+Correção avgDft, Correção Hamming; por utilizador, diferença quadrática, N = 115, overlap = 5.750000e+01 
+p_sucesso=74.058577%
+p_sucesso=76.470588%desvio=2
+p_sucesso_tipo=80.753138%
+p_sucesso_tipo=81.512605%desvio=2
+p_sucesso=74.583333%
+p_sucesso=79.079498%desvio=2
+p_sucesso_tipo=89.166667%
+p_sucesso_tipo=94.142259%desvio=2
+p_sucesso=60.986547%
+p_sucesso=62.612613%desvio=2
+p_sucesso_tipo=88.340807%
+p_sucesso_tipo=90.090090%desvio=2
+p_sucesso=82.178218%
+p_sucesso=85.074627%desvio=2
+p_sucesso_tipo=86.633663%
+p_sucesso_tipo=90.049751%desvio=2
+p_sucesso=65.126050%
+p_sucesso=67.932489%desvio=2
+p_sucesso_tipo=81.512605%
+p_sucesso_tipo=85.654008%desvio=2
+p_sucesso=80.088496%
+p_sucesso=81.333333%desvio=2
+p_sucesso_tipo=92.477876%
+p_sucesso_tipo=93.777778%desvio=2
+p_sucesso=70.484581%
+p_sucesso=73.893805%desvio=2
+p_sucesso_tipo=85.022026%
+p_sucesso_tipo=90.707965%desvio=2
+p_sucesso=79.047619%
+p_sucesso=82.775120%desvio=2
+p_sucesso_tipo=87.619048%
+p_sucesso_tipo=91.387560%desvio=2
+media=73.319178%
+media_desvio=76.146509%
+media_tipo=86.440729%
+media_tipo_desvio=89.665252%
+Correção avgDft, Correção Hamming; por utilizador, diferença quadrática, N = 120, overlap = 60 
+p_sucesso=76.824034%
+p_sucesso=79.310345%desvio=2
+p_sucesso_tipo=79.828326%
+p_sucesso_tipo=81.896552%desvio=2
+p_sucesso=73.390558%
+p_sucesso=78.448276%desvio=2
+p_sucesso_tipo=88.412017%
+p_sucesso_tipo=95.258621%desvio=2
+p_sucesso=62.037037%
+p_sucesso=63.255814%desvio=2
+p_sucesso_tipo=89.814815%
+p_sucesso_tipo=92.558140%desvio=2
+p_sucesso=84.020619%
+p_sucesso=88.082902%desvio=2
+p_sucesso_tipo=88.144330%
+p_sucesso_tipo=94.300518%desvio=2
+p_sucesso=62.608696%
+p_sucesso=65.502183%desvio=2
+p_sucesso_tipo=80.434783%
+p_sucesso_tipo=84.279476%desvio=2
+p_sucesso=81.818182%
+p_sucesso=84.018265%desvio=2
+p_sucesso_tipo=90.909091%
+p_sucesso_tipo=94.977169%desvio=2
+p_sucesso=73.181818%
+p_sucesso=75.799087%desvio=2
+p_sucesso_tipo=85.909091%
+p_sucesso_tipo=91.324201%desvio=2
+p_sucesso=80.487805%
+p_sucesso=83.823529%desvio=2
+p_sucesso_tipo=89.268293%
+p_sucesso_tipo=92.647059%desvio=2
+media=74.296094%
+media_desvio=77.280050%
+media_tipo=86.590093%
+media_tipo_desvio=90.905217%
+Correção avgDft, Correção Hamming; por utilizador, diferença quadrática, N = 125, overlap = 6.250000e+01 
+p_sucesso=75.000000%
+p_sucesso=77.168950%desvio=2
+p_sucesso_tipo=80.909091%
+p_sucesso_tipo=82.191781%desvio=2
+p_sucesso=73.873874%
+p_sucesso=79.185520%desvio=2
+p_sucesso_tipo=89.639640%
+p_sucesso_tipo=95.475113%desvio=2

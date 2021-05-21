@@ -6,7 +6,7 @@ function avgDft = avgDfts(N,vec_z1, vec_z2, labels, posInit)
     begin_range=0;
     vec_z=vec_z1;
     while (k~=numel(labels) && labels(k,2) == ant(2)) 
-        if labels(k,1) < ant(1)
+        if labels(k,1) > ant(1)
             vec_z=vec_z2;
         end;
         noAct = labels(k,3);

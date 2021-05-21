@@ -5,7 +5,7 @@ function avgDft = avgDft_exp(N,vec_z, labels, posInit)
     ant = labels(k,1:2);
     begin_range=0;
     while (k~=numel(labels) && labels(k,2) == ant(2)) 
-        if labels(k,1) < ant(1)
+        if labels(k,1) > ant(1)
             break;
         end;
         noAct = labels(k,3);
@@ -17,7 +17,8 @@ function avgDft = avgDft_exp(N,vec_z, labels, posInit)
         if no_elem < N
             spl = zeros(N,1);
             spl(1:no_elem, 1) = vec_z(begin_range:end_range);
-            fout = abs(fftshift(fft(spl.*hamming(N))))/N;
+            fout = abs(fftshift(fft(spl)))/N;
+            %.*hamming(N)
             avgDft(noAct,:) = avgDft(noAct, :) + fout';
             noSamples(noAct) = noSamples(noAct) + 1;
         else 

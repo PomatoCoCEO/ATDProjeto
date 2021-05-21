@@ -50,12 +50,16 @@ for i = 1:4
     probs = [probs p1 p2];
 end;
 %}
-
-for N=100:1000
+fileResults = fopen('results_tests.txt', 'a');
+types=[1 1 1 2 2 2 3 3 3 3 3 3];
+for N=100:5:500
     overlap = 5*N/10;
     probs = [];
-    fileResults = fopen('results_tests.txt', 'a');
-    fprintf(fileResults, 'Correção Hamming; por utilizador, diferença quadrática, N = %d, overlap = %d \n', N, overlap);
+    probs_types=[];
+    maxyProbs = [];
+    maxyProbs_types=[];
+    
+    fprintf(fileResults, 'Correção avgDft, Correção Hamming; por utilizador, diferença quadrática, N = %d, overlap = %d \n', N, overlap);
 
     for i = 1:8
         vec= readMatrix(d(i,:), 3);
@@ -64,13 +68,47 @@ for N=100:1000
         comp = values_sample(labels, i, N, overlap);
         p = prob(comp, res);
         probs = [probs p];
+
         fprintf('Percentagem de sucesso: %f%%\n', p);
-        fprintf(fileResults, 'Percentagem de sucesso: %f%%\n', p);
+        fprintf(fileResults, 'p_sucesso=%f%%\n', p);
+        allPr = allProbs(comp, res);
+        probMax = max(allPr);
+        posMax = find(allPr == probMax) -100;
+        maxyProbs = [maxyProbs probMax];
+        fprintf('p_sucesso=%f%%desvio=%d\n', max(allPr), posMax);
+        fprintf(fileResults, 'p_sucesso=%f%%desvio=%d\n', max(allPr), posMax);
+
+
+
+        %avgDft = avgDft_type(N, vec(:,3), labels, lines(i));
+        % res = experiment_test_types(N, vec(:,3), avgDft, labels(lines(i+1)-1,5), overlap);   %e1
+
+        comp(comp~=-1) = types(comp(comp~=-1));% values_sample_type(labels, i, N, overlap);
+        res(res~=-1) = types(res(res~=-1));
+        p = prob(comp, res);
+        probs_types = [probs_types p];
+        fprintf('p_sucesso_tipo=%f%%\n', p);
+        fprintf(fileResults, 'p_sucesso_tipo=%f%%\n', p);
+        allPr = allProbs(comp, res);
+        probMax = max(allPr);
+        posMax = find(allPr == probMax)-100;
+        maxyProbs_types = [maxyProbs_types probMax];
+        fprintf('p_sucesso_tipo=%f%%desvio=%d\n', max(allPr), posMax);
+        fprintf(fileResults, 'p_sucesso_tipo=%f%%desvio=%d\n', max(allPr), posMax);
+
     end;
 
 
-    fprintf('Média : %f%%\n', mean(probs));
-    fprintf(fileResults, 'Média : %f%%\n', mean(probs));
+    fprintf('media=%f%%\n', mean(probs));
+    fprintf(fileResults, 'media=%f%%\n', mean(probs));
+    fprintf('media_desvio=%f%%\n', mean(maxyProbs));
+    fprintf(fileResults, 'media_desvio=%f%%\n', mean(maxyProbs));
+    
+    fprintf('media_tipo=%f%%\n', mean(probs_types));
+    fprintf(fileResults, 'media_tipo=%f%%\n', mean(probs_types));
+    fprintf('media_tipo_desvio=%f%%\n', mean(maxyProbs_types));
+    fprintf(fileResults, 'media_tipo_desvio=%f%%\n', mean(maxyProbs_types));
+
 end
 %{
 for i = 1:length(act)

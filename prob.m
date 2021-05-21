@@ -9,4 +9,3 @@ function p = prob(sampleAns, sampleTest)
 
     p =  (sum(proby)-elim)/(length(proby) - elim )*100;
     % file3=fopen('resProbs.txt','a');
-    
